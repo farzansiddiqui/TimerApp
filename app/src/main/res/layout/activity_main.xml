@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+   <TextView
+       android:id="@+id/minutes"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="32dp"
+       android:text="@string/minute"
+       android:textSize="@dimen/text_size"
+       app:layout_constraintEnd_toStartOf="@+id/seconds"
+       app:layout_constraintHorizontal_bias="0.5"
+       app:layout_constraintHorizontal_chainStyle="packed"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <TextView
+       android:id="@+id/seconds"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/seconds"
+       android:textSize="@dimen/text_size"
+       app:layout_constraintEnd_toStartOf="@+id/milli_seconds"
+       app:layout_constraintHorizontal_bias="0.5"
+       app:layout_constraintStart_toEndOf="@+id/minutes"
+       app:layout_constraintTop_toTopOf="@+id/minutes" />
+
+
+   <TextView
+       android:id="@+id/milli_seconds"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:gravity="center_horizontal"
+       android:text="@string/milli_seconds"
+       android:textSize="@dimen/text_size"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.5"
+       app:layout_constraintStart_toEndOf="@+id/seconds"
+       app:layout_constraintTop_toTopOf="@+id/seconds" />
+
+   <ImageView
+       android:id="@+id/reset_image"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:background="?attr/actionBarItemBackground"
+       android:contentDescription="@string/content_description"
+       android:src="@drawable/ic_baseline_refresh_24"
+       android:visibility="gone"
+       app:layout_constraintBottom_toBottomOf="@id/play_btn"
+       app:layout_constraintEnd_toStartOf="@id/play_btn"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="@id/play_btn" />
+
+   <com.google.android.material.floatingactionbutton.FloatingActionButton
+       android:id="@+id/play_btn"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="32dp"
+       android:contentDescription="@string/content_description"
+       android:src="@drawable/ic_baseline_play_arrow_24"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
