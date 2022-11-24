@@ -7,4 +7,7 @@
     <string name="minute">00</string>
     <string name="seconds">:00</string>
     <string name="content_description">Image Description</string>
+    <string name="channel_name">Notification</string>
+    <string name="channel_description">About Notification</string>
+    <string name="click_on_notification">Click on Notification!</string>
 </resources>
