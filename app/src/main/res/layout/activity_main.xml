@@ -55,7 +55,8 @@
        app:layout_constraintBottom_toBottomOf="@id/play_btn"
        app:layout_constraintEnd_toStartOf="@id/play_btn"
        app:layout_constraintStart_toStartOf="parent"
-       app:layout_constraintTop_toTopOf="@id/play_btn" />
+       app:layout_constraintTop_toTopOf="@id/play_btn"
+       app:tint="?attr/colorControlNormal" />
 
    <com.google.android.material.floatingactionbutton.FloatingActionButton
        android:id="@+id/play_btn"
