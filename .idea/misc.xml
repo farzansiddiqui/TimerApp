@@ -4,7 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/StudyMaterial/TimerApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/StudyMaterial/TimerApp/app/src/main/res/layout/activity_mvvmactivitiy.xml" value="0.18" />
         <entry key="..\:/StudyMaterial/TimerApp/app/src/main/res/layout/activity_notification.xml" value="0.44" />
+        <entry key="..\:/StudyMaterial/TimerApp/app/src/main/res/layout/activity_sing_up.xml" value="0.2" />
       </map>
     </option>
   </component>

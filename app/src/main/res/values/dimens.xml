@@ -3,4 +3,5 @@
     <dimen name="text_size">48sp</dimen>
     <dimen name="text_size_textview">20sp</dimen>
      <dimen name="margin_horizontal">24dp</dimen>
+    <dimen name="margin_top_bw_edittext">12dp</dimen>
 </resources>
